@@ -28,7 +28,7 @@ html{
 
 body {
   font: 1.5rem "Nunito", sans-serif;
-  min-height: 10vh;
+  min-height: 100vh;
 
    background-color: #475569;
   background-image: radial-gradient(powderblue, #475569);
@@ -168,7 +168,7 @@ main {
 /* || XL  */
 @media screen and (min-width: 1200px) {
  .card {
-    width: min(calc(33% - 1rem), 500px);/*/ differnt units in calc */
+    width: min(33% - 1rem, 500px);/*/ differnt units in calc */
  }
 }
 
@@ -189,7 +189,7 @@ main {
   }
 
   .card {
-    width: min(calc(33% - 0.25rem),200px);
+      width: min(33% - 0.25rem, 200px);
   }
 }
 
